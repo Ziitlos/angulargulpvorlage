@@ -1,11 +1,11 @@
 {
   "port": 8000,
-  "startPath": "superapp/index.html",
+  "startPath": "superapp/",
   "browser": "chrome",
   "files": [
     "build/**/*.{html,htm,css,js}"
   ],
       "server": {
-    "baseDir": "build"
+    "baseDir": "build/superapp"
   }
 }
